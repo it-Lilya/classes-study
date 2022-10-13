@@ -1,4 +1,4 @@
-import Magician from '../magician';
+import { Magician } from '../magician';
 
 test('name in object', () => {
   const received = new Magician('Maggy', 'Magician');

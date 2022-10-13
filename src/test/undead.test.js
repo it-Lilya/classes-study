@@ -1,4 +1,4 @@
-import Undead from '../undead';
+import { Undead } from '../undead';
 
 test('name in object', () => {
   const received = new Undead('William', 'Undead');

@@ -1,4 +1,4 @@
-import Swordsman from '../swordsman';
+import { Swordsman } from '../swordsman';
 
 test('name in object', () => {
   const received = new Swordsman('Shone', 'Swordsman');

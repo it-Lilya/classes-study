@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1665693982482" clover="3.2.0">
-  <project timestamp="1665693982482" name="All files">
+<coverage generated="1665694886359" clover="3.2.0">
+  <project timestamp="1665694886359" name="All files">
     <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="31" coveredelements="31" complexity="0" loc="24" ncloc="24" packages="1" files="7" classes="7"/>
     <file name="app.js" path="/Users/lilya/classes-study/src/app.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

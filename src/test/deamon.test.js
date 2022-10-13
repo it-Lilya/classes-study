@@ -1,4 +1,4 @@
-import Deamon from '../deamon';
+import { Deamon } from '../deamon';
 
 test('name in object', () => {
   const received = new Deamon('Born', 'Deamon');

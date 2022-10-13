@@ -1,11 +1,15 @@
-const _index = _interopRequireDefault(require('./index'));
+"use strict";
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-class Bowerman extends _index.default {
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Bowerman = void 0;
+var _app = require("./app");
+class Bowerman extends _app.Character {
   constructor(name, type) {
     super(name, type);
     this.attack = 25;
     this.defence = 25;
   }
 }
-const boo = new Bowerman('Boo', 'ty');
+exports.Bowerman = Bowerman;

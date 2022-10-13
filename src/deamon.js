@@ -1,6 +1,6 @@
-import character from './app';
+import { Character } from './app';
 
-export default class Deamon extends character {
+export class Deamon extends Character {
   constructor(name, type) {
     super(name, type);
     this.attack = 10;

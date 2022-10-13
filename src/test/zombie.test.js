@@ -1,4 +1,4 @@
-import Zombie from '../zombie';
+import { Zombie } from '../zombie';
 
 test('name in object', () => {
   const received = new Zombie('Zak', 'Zombie');

@@ -1,4 +1,4 @@
-import Character from '../app';
+import { Character } from '../app';
 
 // eslint-disable-next-line consistent-return
 test('name in object', () => {
