@@ -1,10 +1,11 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
+Object.defineProperty(exports, '__esModule', {
+  value: true,
 });
+// eslint-disable-next-line no-void
 exports.Undead = void 0;
-var _app = require("./app");
+// eslint-disable-next-line no-underscore-dangle
+const _app = require('./app');
+
 class Undead extends _app.Character {
   constructor(name, type) {
     super(name, type);
